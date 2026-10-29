@@ -1,0 +1,15 @@
+Html forms
+-------------------
+Html forms are used to collect the data from  user 
+send to server.
+you want bulid the forms html provide <form> tag.
+
+<form> Elements
+--------------------
+<input>
+<select>
+<textarea>
+<datalist>
+<label>
+
+
