@@ -1,0 +1,49 @@
+Css Notes
+-------------------
+1.Css stands for cascading style sheet.
+2.It was developed by W3c org.released in 1996 year.
+3.By using you can style,design the webpages.
+4.You want working with css no need special software.(vs code+browser)
+5.Css current version is css3.
+6.Css exntension is .css.
+
+
+How many ways write the css code?(FAQ)
+-----------------------------------------
+you can write the css code mainly  three ways
+
+1.inline css:
+--------------------
+inline css means write the css inside html element using "style " attribute.
+
+2.internal css
+-----------------------
+internal css mens write the css within html file  using <style> tag where head part.
+
+
+3.external css
+-------------------
+
+external css means write css code  separate file like "hello.css".
+that  file is connect to html page using <link> tag.
+
+
+
+Selectors(FAQ)
+------------------------
+css selector are used to select the html element for styling.
+you want select the html element css provide number of selectors.
+but they divided into five categories.
+---------------------------------------------
+
+1.simple selectors
+2.relational selectors
+3.pseudo-class seletors
+4.pseudo-element selectors
+5.attribute selectors
+
+
+1.simple selectors
+-------------------------------
+
+simple selectors are used to select the element based on their elementname ,id name, classname
