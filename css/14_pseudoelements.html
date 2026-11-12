@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+    body{
+        margin: 50px;
+    }
+
+::marker{
+    color:lightgrey;
+    font-size: 18px;
+}
+
+
+::placeholder{
+    color:red;
+    padding-left: 20px;
+    font-family: cursive;
+    font-size: 8px;
+}
+
+#p1::first-letter{
+    color:red;
+    font-size: 50px;
+    font-family: cursive;
+    float: left;
+    margin-top: -20px;
+}
+
+#p2::first-line{
+    color:blueviolet;
+    text-shadow: 2px 2px 2px red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+
+::selection{
+    background-color:rgb(186, 236, 203);
+    color:green;
+}
+
+#h1{
+    text-align: center;
+    color:red;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-shadow: 1px 1px 4px blue;
+}
+
+#h1::before{
+    content:"⭐";
+}
+#h1::after{
+    content:"⭐";
+}
+
+#hello{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#hello::before{
+    /* content:"------" */
+
+    content:"Welcome";
+    color:red;
+    margin-right: 5px;
+    font-weight: bold;
+}
+
+
+</style>
+
+</head>
+<body>
+
+    <h2>hello</h2>
+
+<h1 id="h1">Java Full Stack</h1>
+
+<p id="hello">Students</p>
+
+    <p id="p2">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab, dicta. Amet deleniti aut, officia facere facilis, fugiat repellat, tempora nesciunt ratione cum quibusdam nostrum quis mollitia odio possimus reprehenderit consequuntur. Quasi soluta, voluptates alias est laboriosam excepturi deleniti nihil eligendi porro velit ut provident laudantium dolorum dignissimos molestias dolores nulla tenetur quod iure explicabo hic magni animi? Ipsam, maiores impedit.
+    </p>
+
+    <p id="p1">Morem ipsum dolor sit amet consectetur adipisicing elit. Et beatae nam eveniet ex, voluptate quo delectus quae inventore fugit maiores repellat. Unde vitae quas molestiae ad quis molestias fugiat dolor eligendi voluptas deleniti nobis delectus ducimus voluptatem quae, accusantium voluptates quos cupiditate repudiandae voluptate porro ullam laborum. Impedit, rerum porro!</p>
+
+<input type="text" placeholder="Enter Username">
+
+<textarea placeholder="Enter Message" cols="30" rows="4">
+
+</textarea>
+
+
+<ul>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
+    <li>react</li>
+    <li>angular</li>
+</ul>
+
+<ol>
+    <li>html</li>
+    <li>css</li>
+    <li>javascript</li>
+    <li>react</li>
+    <li>angular</li>
+</ol>
+
+
+
+
+</body>
+</html>
